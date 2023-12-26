@@ -21,7 +21,6 @@ def projects_inside(country_code:str):
 @app.get("/project_id/{proj_id}")
 def process_project_id(proj_id):
     url = url_api_wb(project_id=proj_id)
-    print(url)
     return get_content(url)
 
 
