@@ -8,5 +8,4 @@ response = {
     "project_components": "None - xxxx",
     "is_digital_ss_gpt": "yes-no",
     "type_of_digital_project": "[xxxx, xxxxx, xxxxx, xxxx]",
-    "content": "text_content"
 }

@@ -14,6 +14,9 @@ openai = "*"
 langchain = "*"
 ipykernel = "*"
 swig = "*"
+tiktoken = "*"
+faiss-cpu = "*"
+azure-ai-formrecognizer = "*"
 
 [dev-packages]
 
