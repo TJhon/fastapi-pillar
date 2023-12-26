@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {extras = ["all"] }
+requests = "*"
+pandas = "*"
+numpy = "*"
+tqdm = "*"
+pycountry = "*"
+openai = "*"
+langchain = "*"
+ipykernel = "*"
+swig = "*"
+tiktoken = "*"
+faiss-cpu = "*"
+azure-ai-formrecognizer = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
